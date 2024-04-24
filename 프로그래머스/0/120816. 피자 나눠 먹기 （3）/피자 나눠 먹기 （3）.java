@@ -4,7 +4,7 @@ class Solution {
         
         if(n % slice != 0){
             answer = (n/slice) + 1 ;
-        }else{
+        }else {
             answer = n / slice;
         }
         
