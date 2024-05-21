@@ -4,7 +4,7 @@ class Solution {
         
         String[] morse = {".-","-...","-.-.","-..",".","..-.", "--.","....","..",".---","-.-",".-..", "--","-.","---",".--.","--.-",".-.", "...","-","..-","...-",".--","-..-", "-.--","--.."};
         
-        String words[] = letter.split(" ");
+        String[] words = letter.split(" ");
         for(String word : words){
             for(int i = 0; i < morse.length; i++){
                 if(morse[i].equals(word)){
