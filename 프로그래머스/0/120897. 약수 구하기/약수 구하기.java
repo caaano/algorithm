@@ -11,6 +11,7 @@ class Solution {
         }
         
         int[] answer = new int[index];
+        
         for(int i = 0; i < index; i++){
             if(array[i] != 0){
                 answer[i] = array[i];
