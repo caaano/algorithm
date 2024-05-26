@@ -8,6 +8,7 @@ class Solution {
         Arrays.sort(chArr);
         
         String answer = new String(chArr);
+        
         return answer;
     }
 }
